@@ -61,7 +61,7 @@ static const char *brupcmd[] = { "brightnessctl", "set", "10%+", NULL };
 static const char *brdowncmd[] = { "brightnessctl", "set", "10%-", NULL };
 
 /* tagging */
-static const char *tags[] = { "  ", "  ", "  ", " 󰨞 ", "  ", "  ", " 󰉋 ", " 󰭹 ", "  " };
+static const char *tags[] = { "   ", "  ", "  ", " 󰨞 ", "  ", "  ", " 󰉋 ", " 󰭹 ", "  " };
 
 
 static const Rule rules[] = {
