@@ -40,7 +40,7 @@ static const char *colors[][3]      = {
 */
 
 /* =================== Edit this path to match where your scripts are ======================== */
-#define SCRIPT(cmd) "/bin/sh", "-c", "$HOME/.config/wm-config/suckless/dmenu/scripts/" cmd
+#define SCRIPT(cmd) "/bin/sh", "-c", "$HOME/.config/void-linux/suckless/dmenu/scripts/" cmd
 
 /* Custom dmenu scripts */
 static const char *powercmd[]   = { SCRIPT("power"),           NULL };

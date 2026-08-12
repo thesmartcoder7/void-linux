@@ -10,7 +10,7 @@ gray_4="#eeeeee"
 gray_5="#595959"
 font="JetBrainsMono Nerd Font Mono:size=14"
 
-chosen=$(echo -e "$options" | dmenu -i -p "Power:" \
+chosen=$(echo "$options" | dmenu -i -p "Power:" \
     -fn "$font" \
     -nb "$gray_1" \
     -nf "$gray_3" \
@@ -21,9 +21,9 @@ chosen=$(echo -e "$options" | dmenu -i -p "Power:" \
 clean=$(echo "$chosen" | awk '{print $2}')
 
 case "$clean" in
-    "Suspend")  systemctl suspend ;;
-    "Reboot")   systemctl reboot ;;
-    "Shutdown") systemctl poweroff ;;
+    "Suspend")  loginctl suspend ;;
+    "Reboot")   loginctl reboot ;;
+    "Shutdown") loginctl poweroff ;;
     "Logout")   pkill dwm ;;
     *)          exit 1 ;;
 esac
