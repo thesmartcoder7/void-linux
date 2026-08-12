@@ -64,7 +64,7 @@ saved=$(nmcli -t -f NAME,TYPE connection show 2>/dev/null | \
 
 [ -n "$saved" ] && menu="${menu}\n--- Saved Connections ---\n${saved}"
 
-choice=$(echo -e "$menu" | dmenu_cmd "Network:")
+choice=$(echo "$menu" | dmenu_cmd "Network:")
 
 [ -z "$choice" ] && exit 0
 
