@@ -1,0 +1,38 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="linearGradient3403" x1="6.9492" x2="11.215" y1="4.5549" y2="59.052" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#32373c" offset="0"/>
+<stop style="stop-color:#1a1a1a" offset=".36805"/>
+<stop style="stop-color:#31363b" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient20558" x1="25.802" x2="25.111" y1="20.374" y2="58.913" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#3d3d3d" offset="0"/>
+<stop offset=".61772"/>
+<stop style="stop-color:#3d3d3d" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4557" x1="43.5" x2="44.142" y1="64.012" y2=".30621" gradientTransform="translate(.36068 -.13017)" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#141618" offset="0"/>
+<stop style="stop-color:#686868" offset=".51821"/>
+<stop style="stop-color:#31363b" offset="1"/>
+</linearGradient>
+<linearGradient id="c-5" x1="-41.26" x2="-2.994" y1="-.883" y2="37.956" gradientTransform="matrix(1.0454 0 0 1.0299 46.077 3.8568)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#21c9fb" offset="0"/>
+<stop stop-color="#1a86f2" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4237" x1="4" x2="44" y1="4" y2="44" gradientUnits="userSpaceOnUse">
+<stop offset="0"/>
+<stop style="stop-opacity:0" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="matrix(.48252 0 0 .50123 1.3393 -.24547)">
+<path d="m4 4v40h40v-40z" style="fill:url(#c-5);stroke-linejoin:bevel;stroke-width:2"/>
+<path d="m8 40 4 4h32v-32l-4-4v14h-14v-10l-4-4v14h-14l4 4h10v14z" style="fill-rule:evenodd;fill:url(#linearGradient4237);opacity:.2"/>
+<rect x="4" y="43" width="40" height="1" style="opacity:.15"/>
+<path d="m8 26v14h14v-14zm2 2h10v10h-10z" style="fill:#fff"/>
+<path d="m26 26v14h14v-14zm2 2h10v10h-10z" style="fill:#fff"/>
+<path d="m8 8v14h14v-14zm2 2h10v10h-10z" style="fill:#fff"/>
+<path d="m26 8v14h14v-14zm2 2h10v10h-10z" style="fill:#fff"/>
+</g>
+<path transform="matrix(.3688 0 0 .3688 .43473 .33454)" d="m4.7043 3.9815-0.012938 56.82h53.904l1.0222-2.8664s-23.875 0.76639-32.844-4.1404c-10.516-5.7529-15.372-49.697-15.372-49.697z" style="fill:url(#linearGradient3403);mix-blend-mode:normal;stroke-linejoin:round;stroke-width:1.1624;stroke:url(#linearGradient20558)"/>
+<rect transform="matrix(.34549 0 0 .34478 1.0544 1.0798)" x="1.0324" y=".59551" width="62.567" height="62.867" rx="5.803" ry="6.2447" style="fill:none;stroke-linejoin:round;stroke-miterlimit:7.8;stroke-opacity:.99515;stroke-width:3.7137;stroke:url(#linearGradient4557)"/>
+</svg>

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# remove backups
+rm -rf dwm_backup
+rm -rf dmenu_backup
+rm -rf slstatus_backup
+
+# create backups
+cp -r dwm dwm_backup
+cp -r dmenu dmenu_backup
+cp -r slstatus slstatus_backup
+

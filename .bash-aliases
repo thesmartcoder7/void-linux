@@ -1,0 +1,14 @@
+# ---- File listing aliases (first 5) ----
+alias ls='ls --color=auto'              # normal ls with colors
+alias ll='ls -lah --color=auto'         # long, human-readable, show all details
+alias la='ls -A --color=auto'           # show hidden files (but skip . and ..)
+alias l='ls -CF --color=auto'           # compact column view
+alias grep='grep --color=auto'          # color grep results
+
+# ---- Misc productivity aliases ----
+alias diff='diff --color=auto'          # colored diff
+alias ip='ip -color=auto'               # colored ip output
+alias vim='nvim'                        # use neovim when typing vim
+alias cls='clear'                       # quick clear
+alias fetch='fastfetch'                 # system info similar to neofetch
+

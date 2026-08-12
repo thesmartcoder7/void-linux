@@ -1,0 +1,31 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="linearGradient3403" x1="6.9492" x2="11.215" y1="4.5549" y2="59.052" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#32373c" offset="0"/>
+<stop style="stop-color:#1a1a1a" offset=".36805"/>
+<stop style="stop-color:#31363b" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient20558" x1="25.802" x2="25.111" y1="20.374" y2="58.913" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#3d3d3d" offset="0"/>
+<stop offset=".61772"/>
+<stop style="stop-color:#3d3d3d" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4557" x1="43.5" x2="44.142" y1="64.012" y2=".30621" gradientTransform="translate(.36068 -.13017)" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#141618" offset="0"/>
+<stop style="stop-color:#686868" offset=".51821"/>
+<stop style="stop-color:#31363b" offset="1"/>
+</linearGradient>
+<linearGradient id="b-5" x2="0" y1="531.8" y2="515.8" gradientTransform="translate(103.92 -2.2653)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f5955f" offset="0"/>
+<stop stop-color="#facebe" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="matrix(.6535 0 0 .6535 4.3261 2.1923)">
+<rect x="-4.1366" y="-2.0964" width="20.865" height="20.964" style="fill:#f27938"/>
+</g>
+<g transform="matrix(.55222 0 0 .55222 -273.95 -278.99)">
+<path d="m503.49 513.53v13h8v2h-4v1h10v-1h-4v-2h8v-13zm1 1h16v10h-16zm6 2v6l5-3z" style="color-rendering:auto;color:#000000;fill:url(#b-5);image-rendering:auto;shape-rendering:auto"/>
+</g>
+<path transform="matrix(.25073 0 0 .25073 -.011669 -.031389)" d="m4.7043 3.9815-0.012938 56.82h53.904l1.0222-2.8664s-23.875 0.76639-32.844-4.1404c-10.516-5.7529-15.372-49.697-15.372-49.697z" style="fill:url(#linearGradient3403);mix-blend-mode:normal;stroke-linejoin:round;stroke-width:1.1624;stroke:url(#linearGradient20558)"/>
+<rect transform="matrix(.23488 0 0 .2344 .4096 .47527)" x="1.0324" y=".59551" width="62.567" height="62.867" rx="5.803" ry="6.2447" style="fill:none;stroke-linejoin:round;stroke-miterlimit:7.8;stroke-opacity:.99515;stroke-width:3.7137;stroke:url(#linearGradient4557)"/>
+</svg>

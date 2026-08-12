@@ -1,0 +1,123 @@
+============= Essential Apps ===========
+btop                   ---- System monitor (classy version of top/htop)
+kitty                  ---- Terminal emulator
+mpv                    ---- Minimal video player
+picom                  ---- X11 compositor for transparency and effects
+neofetch               ---- System information display
+feh                    ---- Lightweight image viewer and wallpaper setter
+
+============= Browsers =================
+brave-browser          ---- Privacy-focused Chromium-based browser
+chromium               ---- Open-source browser
+librewolf              ---- Privacy-hardened Firefox fork
+thorium-browser        ---- Fast Chromium fork
+firefox                ---- Mozilla Firefox
+
+============= Development ==============
+vscode/codium          ---- Code editor (VSCode or open-source VSCodium)
+git                    ---- Version control system
+vim/neovim             ---- Text editors
+nodejs/npm             ---- JavaScript runtime and package manager
+python3-pip            ---- Python package installer
+golang                 ---- Go programming language
+rust/cargo             ---- Rust programming language
+cmake                  ---- Build system generator
+gdb                    ---- GNU Debugger
+strace                 ---- System call tracer
+
+============= Productivity =============
+obsidian               ---- Note-taking and knowledge management
+notion                 ---- All-in-one workspace
+libreoffice            ---- Office suite
+flameshot              ---- Screenshot tool with annotation
+timeshift              ---- System backup and restore
+stacer                 ---- System optimizer and cleaner
+
+============= Communication ============
+discord                ---- Voice and text chat for communities
+telegram-desktop       ---- Messaging app
+signal-desktop         ---- Privacy-focused messaging
+slack-desktop          ---- Team communication
+ferdium                ---- Multi-service messaging app (WhatsApp, Telegram, Slack, Discord, emails, etc.)
+
+============= Media & Graphics =========
+gimp                   ---- Image manipulation program
+audacity               ---- Audio recording and editing
+clementine             ---- Music player
+spotify                ---- Music streaming
+vlc                    ---- Universal media player
+obs-studio             ---- Screen recording and live streaming
+4k-video-downloader    ---- YouTube video downloader
+
+============= System & Network =========
+networkmanager         ---- Network management
+pavucontrol            ---- PulseAudio volume control
+dbus                   ---- Inter-process communication system
+zip/unzip              ---- Compression utilities
+locate/mlocate         ---- File finder
+htop                   ---- Interactive process viewer
+tree                   ---- Directory tree viewer
+wireshark              ---- Network protocol analyzer
+nmap                   ---- Network discovery tool
+tor                    ---- Anonymous communication
+
+============= Audio System =============
+# Debian/Ubuntu:
+alsa-utils             ---- ALSA audio utilities
+pulseaudio             ---- Audio server
+
+# Arch/Fedora (modern):
+pipewire               ---- Modern audio server
+pipewire-alsa          ---- ALSA compatibility
+pipewire-pulse         ---- PulseAudio compatibility
+wireplumber            ---- Session manager for PipeWire
+
+============= DWM Dependencies =========
+# Debian/Ubuntu:
+xorg                   ---- X11 display server
+xinit                  ---- X11 initialization
+libxinerama-dev        ---- Xinerama extension development files
+libx11-dev             ---- X11 client library development files
+libxft-dev             ---- X11 FreeType font rendering development files
+libx11-xcb-dev         ---- X11 XCB development files
+libxcb-res0-dev        ---- XCB resource extension development files
+libxrandr-dev          ---- X11 RandR extension development files
+build-essential        ---- Essential build tools
+xserver-xorg-input-all ---- X11 input drivers
+xfonts-base            ---- Basic X11 fonts
+
+# Arch Linux:
+xorg-server            ---- X11 display server
+xorg-xinit             ---- X11 initialization
+xorg-xrandr            ---- X11 RandR utility
+libxinerama            ---- Xinerama extension library
+libxft                 ---- X11 FreeType font rendering library
+libx11                 ---- X11 client library
+libxcb                 ---- X11 C Binding library
+base-devel             ---- Essential build tools
+xorg-fonts-misc        ---- X11 fonts
+
+# Fedora:
+xorg-x11-server-Xorg   ---- X11 display server
+xorg-x11-xinit         ---- X11 initialization
+libXinerama-devel      ---- Xinerama extension development files
+libXft-devel           ---- X11 FreeType font rendering development files
+libX11-devel           ---- X11 client library development files
+libXrandr-devel        ---- X11 RandR extension development files
+libxcb-devel           ---- XCB development files
+gcc/make               ---- Build tools
+xorg-x11-fonts-misc    ---- X11 fonts
+
+============= Optional Extras ==========
+flatpak                ---- Universal package format
+piper                  ---- Gaming mouse configuration tool
+flatseal               ---- Flatpak permissions manager
+bleachbit              ---- System cleaner
+redshift               ---- Blue light filter
+dunst                  ---- Notification daemon
+rofi                   ---- Application launcher (alternative to dmenu)
+
+
+============ Notification ==============
+dunst                  ---- Notification daemon
+libnotify              ---- Desktop notification

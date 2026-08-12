@@ -1,0 +1,31 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="linearGradient3403" x1="3.75" x2="5.8889" y1="2.5357" y2="29.5" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#32373c" offset="0"/>
+<stop style="stop-color:#1a1a1a" offset=".36805"/>
+<stop style="stop-color:#31363b" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient20558" x1="12.775" x2="12.775" y1="10.378" y2="29.5" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#3d3d3d" offset="0"/>
+<stop offset=".61772"/>
+<stop style="stop-color:#3d3d3d" offset="1"/>
+</linearGradient>
+<filter id="filter20720" x="-.01718" y="-.016566" width="1.0344" height="1.0331" style="color-interpolation-filters:sRGB">
+<feGaussianBlur stdDeviation="0.07327375"/>
+</filter>
+<linearGradient id="linearGradient8" x1="17" x2="17" y1="30" y2="2" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#141618" offset="0"/>
+<stop style="stop-color:#686868" offset=".5319"/>
+<stop style="stop-color:#31363b" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient2" x1="5.9062" x2="22.542" y1="25.684" y2="6.4396" gradientUnits="userSpaceOnUse">
+<stop offset="0"/>
+<stop style="stop-color:#353a3f;stop-opacity:.99608" offset="1"/>
+</linearGradient>
+</defs>
+<rect x="2.5368" y="2.5357" width="26.963" height="26.964" ry="0" style="fill-rule:evenodd;fill:url(#linearGradient2)"/>
+<path d="m6 4v1h7v-1zm9 0v1h1.9863l-2e-3 -1zm9.957 0 0.042969 1h5v-1zm-0.95703 4v1h2v-1zm4 0v1h2v-1zm-12 4v1h2v-1zm-5 4v1h5v-1zm16 0v1h2v-1zm1 5v1h2v-1zm-11 4v1h8v-1zm10 0v1h3v-1z" style="fill:#ccc;stroke-width:.576"/>
+<path d="m19 4v1h4l0.01953-1zm-10 4-0.033203 1h2.1172l-0.01758-1zm13 0-9 0.021484v0.97852h9zm-15 4v1h6.9805v-1zm1 4v1h1v-1zm12 0v1h5v-1zm-11 5v1h9v-0.99219zm11 0v1h6v-1zm-7 4v1h2v-1z" style="fill:#3daee9;stroke-width:.576"/>
+<path d="m3 2v28h26l1-1s-12 0.22222-16.415-2.1226c-5.2321-2.7788-7.585-24.877-7.585-24.877z" style="fill:url(#linearGradient3403);filter:url(#filter20720);mix-blend-mode:normal;stroke-linejoin:round;stroke-width:.576;stroke:url(#linearGradient20558)"/>
+<path d="m5 1c-4 0-4 4-4 4v21c0 5 4 5 4 5h22s4 0 4-4v-22s0-4-4-4zm0 2h22c2 0 2 2 2 2v22c0 2-2 2-2 2h-22s-2 0-2-3v-21s0-2 2-2z" style="fill:url(#linearGradient8);stroke-width:.226"/>
+</svg>

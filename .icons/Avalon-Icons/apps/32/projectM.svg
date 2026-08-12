@@ -1,0 +1,35 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="linearGradient3403" x1="6.9492" x2="11.215" y1="4.5549" y2="59.052" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#32373c" offset="0"/>
+<stop style="stop-color:#1a1a1a" offset=".36805"/>
+<stop style="stop-color:#31363b" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient20558" x1="25.802" x2="25.111" y1="20.374" y2="58.913" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#3d3d3d" offset="0"/>
+<stop offset=".61772"/>
+<stop style="stop-color:#3d3d3d" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4557" x1="43.5" x2="44.142" y1="64.012" y2=".30621" gradientTransform="translate(.36068 -.13017)" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#141618" offset="0"/>
+<stop style="stop-color:#686868" offset=".51821"/>
+<stop style="stop-color:#31363b" offset="1"/>
+</linearGradient>
+<filter id="filter1305" x="-.060003" y="-.060002" width="1.12" height="1.12" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.61852427"/>
+</filter>
+<linearGradient id="linearGradient110327" x1="23.82" x2="27.593" y1="40.802" y2="5.6743" gradientTransform="matrix(.65728 0 0 .65728 .25953 .21682)" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#548ffe" offset="0"/>
+<stop style="stop-color:#4bcef5" offset="1"/>
+</linearGradient>
+</defs>
+<rect x="2.3385" y="2.2008" width="27.662" height="28.074" ry="0" style="fill-rule:evenodd;fill:url(#linearGradient110327)"/>
+<g transform="translate(-63.844 .57194)">
+<g transform="matrix(1.369 0 0 1.2987 57.314 -7.1914)">
+<ellipse transform="matrix(.70955 0 0 .72419 212.6 -14.247)" cx="-274.87" cy="44.339" rx="12.37" ry="12.37" filter="url(#filter1305)" opacity=".25"/>
+<path d="m19.506 11.116 4.0081 11.831h-2.2174l-1.7943-6.4764-1.458 4.427h-1.0232l-1.4752-4.4363-1.8974 6.3392h-1.9657l3.8583-11.579 2.054 5.9414z" fill="#fff" stroke-width=".14627"/>
+</g>
+</g>
+<path transform="matrix(.4942 0 0 .4942 .32506 .23318)" d="m4.7043 3.9815-0.012938 56.82h53.904l1.0222-2.8664s-23.875 0.76639-32.844-4.1404c-10.516-5.7529-15.372-49.697-15.372-49.697z" style="fill:url(#linearGradient3403);mix-blend-mode:normal;stroke-linejoin:round;stroke-width:1.1624;stroke:url(#linearGradient20558)"/>
+<rect transform="matrix(.46296 0 0 .46201 1.1554 1.2318)" x="1.0324" y=".59551" width="62.567" height="62.867" rx="5.803" ry="6.2447" style="fill:none;stroke-linejoin:round;stroke-miterlimit:7.8;stroke-opacity:.99515;stroke-width:3.7137;stroke:url(#linearGradient4557)"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style id="current-color-scheme" type="text/css">.ColorScheme-Highlight {
+        color:#3daee9;
+      }</style>
+<defs>
+<linearGradient id="linearGradient3403" x1="6.9492" x2="11.215" y1="4.5549" y2="59.052" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#32373c" offset="0"/>
+<stop style="stop-color:#1a1a1a" offset=".36805"/>
+<stop style="stop-color:#31363b" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient20558" x1="25.802" x2="25.111" y1="20.374" y2="58.913" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#3d3d3d" offset="0"/>
+<stop offset=".61772"/>
+<stop style="stop-color:#3d3d3d" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient8" x1="17" x2="17" y1="30" y2="2" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#141618" offset="0"/>
+<stop style="stop-color:#686868" offset=".5319"/>
+<stop style="stop-color:#31363b" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient3085" x1="434.57" x2="384.57" y1="543.8" y2="503.8" gradientTransform="matrix(.66667 0 0 .7 -256.38 -350.66)" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#343b40" offset="0"/>
+<stop style="stop-color:#555e63" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient3087" x2="-1.9607" y1="44" y2="4.1918" gradientTransform="matrix(.66667 0 0 .7 0 -.8)" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#bd8d48" offset="0"/>
+<stop style="stop-color:#e8b971" offset="1"/>
+</linearGradient>
+</defs>
+<rect x="4.0612" y="2" width="25.341" height="26.09" rx="0" ry="0" style="fill:url(#linearGradient3085);stroke-width:.66667"/>
+<path d="m4.0612 4h24.226v23.914l-24.226 8e-3v2.0859l24.831-0.0076 1.395-1.5883v-25.012l-1.334-1.4004h-24.892z" style="fill:url(#linearGradient3087);stroke-width:.66667"/>
+<path d="m4.0605 4v0.95508h23.318v22.045h-23.318v0.91406h24.227v-23.914h-24.227z" style="color:#000000;fill-opacity:.49804;fill:#aa7f41;stroke-width:.66667"/>
+<rect class="ColorScheme-Highlight" x="19" y="26" width="4" height=".99999" fill="currentColor"/>
+<rect x="24" y="26" width="4" height="1" style="color:#000000;fill:#d6d6d6;stroke-width:.66667"/>
+<path transform="matrix(.49531 0 0 .49531 .32409 .23228)" d="m5.4025 3.5689v56.531h52.493l2.019-2.019s-24.172 0.62135-33.141-4.2854c-10.516-5.7529-15.314-50.226-15.314-50.226z" style="fill:url(#linearGradient3403);mix-blend-mode:normal;stroke-linejoin:round;stroke-width:1.1624;stroke:url(#linearGradient20558)"/>
+<path d="m5 1c-4 0-4 4-4 4v21c0 5 4 5 4 5h22s4 0 4-4v-22s0-4-4-4zm0 2h22c2 0 2 2 2 2v22c0 2-2 2-2 2h-22s-2 0-2-3v-21s0-2 2-2z" style="fill:url(#linearGradient8);stroke-width:.226"/>
+</svg>
