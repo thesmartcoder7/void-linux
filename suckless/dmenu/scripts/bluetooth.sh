@@ -92,7 +92,7 @@ fi
 
 menu="${menu}\n>>> Scan for Devices <<<\n"
 
-choice=$(echo -e "$menu" | dmenu_cmd "Bluetooth")
+choice=$(echo "$menu" | dmenu_cmd "Bluetooth")
 
 [ -z "$choice" ] && exit 0
 
