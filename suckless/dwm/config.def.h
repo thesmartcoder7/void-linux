@@ -43,11 +43,11 @@ static const char *colors[][3]      = {
 #define SCRIPT(cmd) "/bin/sh", "-c", "$HOME/.config/void-linux/suckless/dmenu/scripts/" cmd
 
 /* Custom dmenu scripts */
-static const char *powercmd[]   = { SCRIPT("power"),           NULL };
-static const char *mountcmd[]   = { SCRIPT("drive-mount"),     NULL };
-static const char *networkcmd[] = { SCRIPT("network-connect"), NULL };
-static const char *killcmd[]    = { SCRIPT("kill-processes"),  NULL };
-static const char *bluetooth[]  = { SCRIPT("bluetooth"),       NULL };
+static const char *powercmd[]   = { SCRIPT("power.sh"),           NULL };
+static const char *mountcmd[]   = { SCRIPT("drive-mount.sh"),     NULL };
+static const char *networkcmd[] = { SCRIPT("network-connect.sh"), NULL };
+static const char *killcmd[]    = { SCRIPT("kill-processes.sh"),  NULL };
+static const char *bluetooth[]  = { SCRIPT("bluetooth.sh"),       NULL };
  
 
 /* PipeWire volume control */
