@@ -24,6 +24,6 @@ case "$clean" in
     "Suspend")  loginctl suspend ;;
     "Reboot")   loginctl reboot ;;
     "Shutdown") loginctl poweroff ;;
-    "Logout")   pkill dwm ;;
+    "Logout")   pkill X ;;
     *)          exit 1 ;;
 esac
