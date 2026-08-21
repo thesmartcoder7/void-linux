@@ -87,12 +87,12 @@ if [ -n "$current_name" ]; then
         menu="${menu}Current: ${current_name}\n"
     fi
 else
-    menu="${menu}Current: None\n"
+    menu="${menu}Current: No Device Connected\n"
 fi
 
 menu="${menu}\n>>> Scan for Devices <<<\n"
 
-choice=$(echo "$menu" | dmenu_cmd "Bluetooth")
+choice=$(echo "$menu" | dmenu_cmd " Bluetooth")
 
 [ -z "$choice" ] && exit 0
 

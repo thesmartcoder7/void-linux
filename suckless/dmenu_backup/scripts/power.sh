@@ -10,7 +10,7 @@ gray_4="#eeeeee"
 gray_5="#595959"
 font="JetBrainsMono Nerd Font Mono:size=14"
 
-chosen=$(echo "$options" | dmenu -i -p "Power:" \
+chosen=$(echo "$options" | dmenu -i -p "󱐋 Power:" \
     -fn "$font" \
     -nb "$gray_1" \
     -nf "$gray_3" \
@@ -24,6 +24,6 @@ case "$clean" in
     "Suspend")  loginctl suspend ;;
     "Reboot")   loginctl reboot ;;
     "Shutdown") loginctl poweroff ;;
-    "Logout")   pkill dwm ;;
+    "Logout")   pkill X ;;
     *)          exit 1 ;;
 esac

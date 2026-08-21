@@ -9,7 +9,7 @@ gray_5="#595959"
 
 font="JetBrainsMono Nerd Font Mono:size=14"
 
-action=$(echo "Mount\nUnmount\nPoweroff" | dmenu -i -p "Drive action:" -fn "$font" -nb "$gray_1" -nf "$gray_3" -sb "$gray_5" -sf "$gray_4")
+action=$(echo "Mount\nUnmount\nPoweroff" | dmenu -i -p " Drive action:" -fn "$font" -nb "$gray_1" -nf "$gray_3" -sb "$gray_5" -sf "$gray_4")
 
 case $action in
     Mount)
