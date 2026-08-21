@@ -47,27 +47,27 @@
 			return NULL;
 
 		if (cap_perc >= 0 && cap_perc <= 10) {
-			return bprintf("󰁺 %d%%", cap_perc);
+      return bprintf("󰁺 %d%%", cap_perc);
 		} else if (cap_perc > 10 && cap_perc <= 20) {
-                        return bprintf("󰁻 %d%%", cap_perc);
-                } else if (cap_perc > 20 && cap_perc <= 30) {
-		        return bprintf("󰁼 %d%%", cap_perc);
-	        } else if (cap_perc > 30 && cap_perc <= 40) {
-		        return bprintf("󰁽 %d%%", cap_perc);
+      return bprintf("󰁻 %d%%", cap_perc);
+    } else if (cap_perc > 20 && cap_perc <= 30) {
+		  return bprintf("󰁼 %d%%", cap_perc);
+	  } else if (cap_perc > 30 && cap_perc <= 40) {
+		  return bprintf("󰁽 %d%%", cap_perc);
 		} else if (cap_perc > 40 && cap_perc <= 50) {
-		        return bprintf("󰁾 %d%%", cap_perc);
+		  return bprintf("󰁾 %d%%", cap_perc);
 		} else if (cap_perc > 50 && cap_perc <= 60) {
-                        return bprintf("󰁿 %d%%", cap_perc);
-                } else if (cap_perc > 60 && cap_perc <= 70) {
-                        return bprintf("󰂀 %d%%", cap_perc);
-                } else if (cap_perc > 70 && cap_perc <= 80) {
-                        return bprintf("󰂁 %d%%", cap_perc);
-                } else if (cap_perc > 80 && cap_perc <= 90) {
-                        return bprintf("󰂂 %d%%", cap_perc);
-                } else if (cap_perc > 90 && cap_perc <= 100) {
-                        return bprintf("󰁹 %d%%", cap_perc);
-                } else {
-		        return bprintf("󰂃");
+      return bprintf("󰁿 %d%%", cap_perc);
+    } else if (cap_perc > 60 && cap_perc <= 70) {
+      return bprintf("󰂀 %d%%", cap_perc);
+    } else if (cap_perc > 70 && cap_perc <= 80) {
+      return bprintf("󰂁 %d%%", cap_perc);
+    } else if (cap_perc > 80 && cap_perc <= 90) {
+      return bprintf("󰂂 %d%%", cap_perc);
+    } else if (cap_perc > 90 && cap_perc <= 100) {
+      return bprintf("󰁹 %d%%", cap_perc);
+    } else {
+		  return bprintf("󰂃");
 		}
 		/*return bprintf("%d", cap_perc);*/
 	}

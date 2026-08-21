@@ -81,7 +81,7 @@ static const struct arg args[] = {
     "}'"
   },
   { datetime, "%s ", "%Y , %H:%M" }, 
-	{ ram_used, "  %s ", NULL },
+	/**{ ram_used, "  %s ", NULL },**/
 
   /* - - - - - if the machine has the respective modules - - - - - */
 
