@@ -94,7 +94,7 @@ static const struct arg args[] = {
   "    echo '󰂲 '; "
   "fi"
   },
-	{ run_command, "   %s ", "amixer sget Master | awk -F'[][]' '/%/ { print $2 }' | head -n1 &" },
+	{ run_command, "  %s ", "amixer sget Master | awk -F'[][]' '/%/ { print $2 }' | head -n1 &" },
 	{ battery_perc, " %s ", "BAT0"},
   { battery_state, " %s ", "BAT0"},
 };
