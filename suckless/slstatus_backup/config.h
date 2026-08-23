@@ -85,9 +85,16 @@ static const struct arg args[] = {
 
   /* - - - - - if the machine has the respective modules - - - - - */
 
-	{ wifi_perc, " %s", "wlp0s20f3" },
-	{ wifi_essid, "%s ", "wlp0s20f3" },
-	/*{ run_command, "   %s% ", "amixer sget Master | awk -F'[][]' '/%/ { print $2 }' | head -n1 &" },*/
+	{ wifi_perc, " %s ", "wlp0s20f3" },
+	/*{ wifi_essid, "%s ", "wlp0s20f3" },*/
+  { run_command, " %s ",
+  "if bluetoothctl info | grep -q 'Connected: yes' && bluetoothctl info | grep -q 'Icon: audio-headset'; then "
+  "    echo ' '; "
+  "else "
+  "    echo '󰂲 '; "
+  "fi"
+  },
+	{ run_command, "   %s ", "amixer sget Master | awk -F'[][]' '/%/ { print $2 }' | head -n1 &" },
 	{ battery_perc, " %s ", "BAT0"},
   { battery_state, " %s ", "BAT0"},
 };
