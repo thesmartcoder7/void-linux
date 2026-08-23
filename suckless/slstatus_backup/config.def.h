@@ -68,7 +68,7 @@ static const struct arg args[] = {
 	/* function format          argument */
 	/*{ datetime, " %s ", "%b %e , %H:%M" },*/
   /*{ datetime, " %s ", "%A - %B %d %Y, %H:%M"},*/
-  { run_command, " %s ",
+  { run_command, " 󰸘 %s ",
     "date +\"%A %B %d\" | awk '"
     "{"
     "  d=$NF; "
@@ -80,7 +80,7 @@ static const struct arg args[] = {
     "  printf \"%s - %s %d%s\", $1, $2, d, s"
     "}'"
   },
-  { datetime, "%s ", "%Y , %H:%M" }, 
+  { datetime, "%s ", "%Y , 󱑎  %H:%M" }, 
 	/**{ ram_used, "  %s ", NULL },**/
 
   /* - - - - - if the machine has the respective modules - - - - - */
@@ -89,7 +89,7 @@ static const struct arg args[] = {
 	/*{ wifi_essid, "%s ", "wlp0s20f3" },*/
   { run_command, " %s ",
   "if bluetoothctl info | grep -q 'Connected: yes' && bluetoothctl info | grep -q 'Icon: audio-headset'; then "
-  "    echo ' '; "
+  "    echo '  '; "
   "else "
   "    echo '󰂲 '; "
   "fi"
