@@ -80,7 +80,7 @@ static const struct arg args[] = {
     "  printf \"%s - %s %d%s\", $1, $2, d, s"
     "}'"
   },
-  { datetime, "%s ", "%Y , 󱑎  %H:%M" }, 
+  { datetime, "%s ", "%Y , 󱑎 %H:%M" }, 
 	/**{ ram_used, "  %s ", NULL },**/
 
   /* - - - - - if the machine has the respective modules - - - - - */
