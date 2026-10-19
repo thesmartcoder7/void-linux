@@ -125,3 +125,8 @@ The agetty service definition itself remains in /etc/sv/agetty-tty2.
 
 Note that removing the symlink alone is generally enough to disable a runit service. The down file is an additional control, not necessarily a requirement for installing Ly.
 
+
+## Note:
+There is an installation script for ly `install-ly.sh` within this repo. Run it with sudo within ly's downloaded/cloned directory
+
+Cheers!
