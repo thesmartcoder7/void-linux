@@ -1,5 +1,5 @@
 # laptop configurations
-./~/.config/void-linux/laptop-config.sh &
+./$HOME/.config/void-linux/laptop_config.sh &
 
 # Ensure XDG_RUNTIME_DIR is set
 export XDG_RUNTIME_DIR="/run/user/$(id -u)"
@@ -10,6 +10,12 @@ eval $( dbus-launch --sh-syntax --exit-with-session )
 # start the notification daemon
 dunst &
 
+# ensure wifi is unblocked
+rfkill unblock wlan
+
+# ensure bluetooth is unblocked
+rfkill unblock bluetooth
+
 # re-apply udev sound issue
 /usr/bin/udevadm trigger --subsystem-match=sound
 
@@ -17,7 +23,7 @@ dunst &
 pipewire &
 
 # set background image
-feh --bg-scale ~/.config/void-linux/wallpapers/enter-the-void.png  &
+feh --bg-scale ~/.config/void-linux/wallpapers/void-space.png  &
 
 # terminal transparency
 if ! ps aux | grep -v grep | grep picom > /dev/null; then
