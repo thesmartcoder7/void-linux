@@ -2,7 +2,7 @@
 #define MINLOGIN_CONFIG_H
 
 /* Set this to the existing, non-root account allowed to log in. */
-#define MINLOGIN_USER "samuel"
+#define MINLOGIN_USER "<your-usename>"
 #define BACKGROUND_IMAGE "/home/samuel/.config/void-linux/wallpapers/void-space.png"
 #define MINLOGIN_PAM_SERVICE "minlogin"
 #define MINLOGIN_DISPLAY ":0"
