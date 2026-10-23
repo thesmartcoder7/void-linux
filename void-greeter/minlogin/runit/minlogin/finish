@@ -1,4 +1,0 @@
-#!/bin/sh
-# runit calls this after stopping the service.
-rm -f /run/minlogin/Xauthority /run/minlogin-user.Xauthority
-exit 0
